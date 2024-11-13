@@ -1,0 +1,1234 @@
+[
+    {
+        "match_number": 1,
+        "away_team": {
+            "url": "/teams/nfl/washington-commanders",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "377.0 (4th)",
+                    "defense": "324.9 (14th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "153.5 (4th)",
+                    "defense": "142.7 (28th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "223.5 (11th)",
+                    "defense": "182.2 (5th)"
+                },
+                "Pts/Game": {
+                    "offense": "29.0 (3rd)",
+                    "defense": "21.7 (12th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/philadelphia-eagles",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "373.9 (6th)",
+                    "defense": "274.1 (2nd)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "176.1 (2nd)",
+                    "defense": "100.7 (5th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "197.8 (20th)",
+                    "defense": "173.4 (3rd)"
+                },
+                "Pts/Game": {
+                    "offense": "25.9 (7th)",
+                    "defense": "17.9 (5th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/philadelphia-eagles/teamvsteam?opp=32",
+        "games": [
+            {
+                "date": "10/29/2023",
+                "visitor_team": "Philadelphia Eagles",
+                "visitor_score": "38",
+                "home_team": "Washington Commanders",
+                "home_score": "31",
+                "result": "W"
+            },
+            {
+                "date": "10/01/2023",
+                "visitor_team": "Washington Commanders",
+                "visitor_score": "31",
+                "home_team": "Philadelphia Eagles",
+                "home_score": "34",
+                "result": "W/OT"
+            },
+            {
+                "date": "11/14/2022",
+                "visitor_team": "Washington Commanders",
+                "visitor_score": "32",
+                "home_team": "Philadelphia Eagles",
+                "home_score": "21",
+                "result": "L"
+            },
+            {
+                "date": "09/25/2022",
+                "visitor_team": "Philadelphia Eagles",
+                "visitor_score": "24",
+                "home_team": "Washington Commanders",
+                "home_score": "8",
+                "result": "W"
+            },
+            {
+                "date": "01/02/2022",
+                "visitor_team": "Philadelphia Eagles",
+                "visitor_score": "20",
+                "home_team": "Washington Football Team",
+                "home_score": "16",
+                "result": "W"
+            }
+        ]
+    },
+    {
+        "match_number": 2,
+        "away_team": {
+            "url": "/teams/nfl/green-bay-packers",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "390.6 (3rd)",
+                    "defense": "320.0 (12th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "154.8 (3rd)",
+                    "defense": "113.0 (10th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "235.8 (7th)",
+                    "defense": "207.0 (15th)"
+                },
+                "Pts/Game": {
+                    "offense": "25.6 (9th)",
+                    "defense": "21.6 (11th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/chicago-bears",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "277.7 (30th)",
+                    "defense": "323.4 (13th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "108.1 (24th)",
+                    "defense": "133.0 (24th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "169.6 (30th)",
+                    "defense": "190.4 (7th)"
+                },
+                "Pts/Game": {
+                    "offense": "19.4 (24th)",
+                    "defense": "18.6 (7th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/chicago-bears/teamvsteam?opp=12",
+        "games": [
+            {
+                "date": "01/07/2024",
+                "visitor_team": "Chicago Bears",
+                "visitor_score": "9",
+                "home_team": "Green Bay Packers",
+                "home_score": "17",
+                "result": "L"
+            },
+            {
+                "date": "09/10/2023",
+                "visitor_team": "Green Bay Packers",
+                "visitor_score": "38",
+                "home_team": "Chicago Bears",
+                "home_score": "20",
+                "result": "L"
+            },
+            {
+                "date": "12/04/2022",
+                "visitor_team": "Green Bay Packers",
+                "visitor_score": "28",
+                "home_team": "Chicago Bears",
+                "home_score": "19",
+                "result": "L"
+            },
+            {
+                "date": "09/18/2022",
+                "visitor_team": "Chicago Bears",
+                "visitor_score": "10",
+                "home_team": "Green Bay Packers",
+                "home_score": "27",
+                "result": "L"
+            },
+            {
+                "date": "12/12/2021",
+                "visitor_team": "Chicago Bears",
+                "visitor_score": "30",
+                "home_team": "Green Bay Packers",
+                "home_score": "45",
+                "result": "L"
+            }
+        ]
+    },
+    {
+        "match_number": 3,
+        "away_team": {
+            "url": "/teams/nfl/minnesota-vikings",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "343.6 (13th)",
+                    "defense": "310.9 (11th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "120.2 (16th)",
+                    "defense": "79.0 (2nd)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "223.3 (12th)",
+                    "defense": "231.9 (26th)"
+                },
+                "Pts/Game": {
+                    "offense": "24.6 (10th)",
+                    "defense": "17.4 (3rd)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/tennessee-titans",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "295.6 (27th)",
+                    "defense": "273.6 (1st)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "126.3 (10th)",
+                    "defense": "116.9 (13th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "169.2 (31st)",
+                    "defense": "156.7 (1st)"
+                },
+                "Pts/Game": {
+                    "offense": "17.4 (27th)",
+                    "defense": "26.7 (29th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/tennessee-titans/teamvsteam?opp=18",
+        "games": [
+            {
+                "date": "09/27/2020",
+                "visitor_team": "Tennessee Titans",
+                "visitor_score": "31",
+                "home_team": "Minnesota Vikings",
+                "home_score": "30",
+                "result": "W"
+            },
+            {
+                "date": "09/11/2016",
+                "visitor_team": "Minnesota Vikings",
+                "visitor_score": "25",
+                "home_team": "Tennessee Titans",
+                "home_score": "16",
+                "result": "L"
+            },
+            {
+                "date": "10/07/2012",
+                "visitor_team": "Tennessee Titans",
+                "visitor_score": "7",
+                "home_team": "Minnesota Vikings",
+                "home_score": "30",
+                "result": "L"
+            },
+            {
+                "date": "09/28/2008",
+                "visitor_team": "Minnesota Vikings",
+                "visitor_score": "17",
+                "home_team": "Tennessee Titans",
+                "home_score": "30",
+                "result": "W"
+            },
+            {
+                "date": "10/24/2004",
+                "visitor_team": "Tennessee Titans",
+                "visitor_score": "3",
+                "home_team": "Minnesota Vikings",
+                "home_score": "20",
+                "result": "L"
+            }
+        ]
+    },
+    {
+        "match_number": 4,
+        "away_team": {
+            "url": "/teams/nfl/cleveland-browns",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "274.4 (31st)",
+                    "defense": "328.2 (16th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "91.0 (28th)",
+                    "defense": "122.6 (14th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "183.4 (28th)",
+                    "defense": "205.7 (13th)"
+                },
+                "Pts/Game": {
+                    "offense": "16.4 (29th)",
+                    "defense": "23.7 (21st)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/new-orleans-saints",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "334.8 (16th)",
+                    "defense": "385.6 (28th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "122.4 (13th)",
+                    "defense": "141.0 (27th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "212.4 (16th)",
+                    "defense": "244.6 (29th)"
+                },
+                "Pts/Game": {
+                    "offense": "22.7 (16th)",
+                    "defense": "24.6 (24th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/new-orleans-saints/teamvsteam?opp=8",
+        "games": [
+            {
+                "date": "12/24/2022",
+                "visitor_team": "New Orleans Saints",
+                "visitor_score": "17",
+                "home_team": "Cleveland Browns",
+                "home_score": "10",
+                "result": "W"
+            },
+            {
+                "date": "09/16/2018",
+                "visitor_team": "Cleveland Browns",
+                "visitor_score": "18",
+                "home_team": "New Orleans Saints",
+                "home_score": "21",
+                "result": "W"
+            },
+            {
+                "date": "09/14/2014",
+                "visitor_team": "New Orleans Saints",
+                "visitor_score": "24",
+                "home_team": "Cleveland Browns",
+                "home_score": "26",
+                "result": "L"
+            },
+            {
+                "date": "10/24/2010",
+                "visitor_team": "Cleveland Browns",
+                "visitor_score": "30",
+                "home_team": "New Orleans Saints",
+                "home_score": "17",
+                "result": "L"
+            },
+            {
+                "date": "09/10/2006",
+                "visitor_team": "New Orleans Saints",
+                "visitor_score": "19",
+                "home_team": "Cleveland Browns",
+                "home_score": "14",
+                "result": "W"
+            }
+        ]
+    },
+    {
+        "match_number": 5,
+        "away_team": {
+            "url": "/teams/nfl/las-vegas-raiders",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "280.2 (29th)",
+                    "defense": "325.0 (15th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "76.9 (32nd)",
+                    "defense": "129.9 (22nd)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "203.3 (18th)",
+                    "defense": "195.1 (11th)"
+                },
+                "Pts/Game": {
+                    "offense": "18.7 (25th)",
+                    "defense": "27.9 (30th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/miami-dolphins",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "315.2 (20th)",
+                    "defense": "305.8 (10th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "126.4 (9th)",
+                    "defense": "114.4 (12th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "188.8 (25th)",
+                    "defense": "191.3 (8th)"
+                },
+                "Pts/Game": {
+                    "offense": "16.3 (30th)",
+                    "defense": "22.4 (17th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/miami-dolphins/teamvsteam?opp=23",
+        "games": [
+            {
+                "date": "11/19/2023",
+                "visitor_team": "Las Vegas Raiders",
+                "visitor_score": "13",
+                "home_team": "Miami Dolphins",
+                "home_score": "20",
+                "result": "W"
+            },
+            {
+                "date": "09/26/2021",
+                "visitor_team": "Miami Dolphins",
+                "visitor_score": "28",
+                "home_team": "Las Vegas Raiders",
+                "home_score": "31",
+                "result": "L/OT"
+            },
+            {
+                "date": "12/26/2020",
+                "visitor_team": "Miami Dolphins",
+                "visitor_score": "26",
+                "home_team": "Las Vegas Raiders",
+                "home_score": "25",
+                "result": "W"
+            },
+            {
+                "date": "09/23/2018",
+                "visitor_team": "Oakland Raiders",
+                "visitor_score": "20",
+                "home_team": "Miami Dolphins",
+                "home_score": "28",
+                "result": "W"
+            },
+            {
+                "date": "11/05/2017",
+                "visitor_team": "Oakland Raiders",
+                "visitor_score": "27",
+                "home_team": "Miami Dolphins",
+                "home_score": "24",
+                "result": "L"
+            }
+        ]
+    },
+    {
+        "match_number": 6,
+        "away_team": {
+            "url": "/teams/nfl/los-angeles-rams",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "328.7 (17th)",
+                    "defense": "347.1 (22nd)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "94.1 (26th)",
+                    "defense": "127.6 (19th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "234.6 (8th)",
+                    "defense": "219.6 (22nd)"
+                },
+                "Pts/Game": {
+                    "offense": "20.6 (20th)",
+                    "defense": "24.1 (22nd)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/new-england-patriots",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "271.1 (32nd)",
+                    "defense": "339.5 (19th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "114.3 (22nd)",
+                    "defense": "130.5 (23rd)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "156.8 (32nd)",
+                    "defense": "209.0 (16th)"
+                },
+                "Pts/Game": {
+                    "offense": "16.0 (31st)",
+                    "defense": "22.0 (13th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/new-england-patriots/teamvsteam?opp=29",
+        "games": [
+            {
+                "date": "12/10/2020",
+                "visitor_team": "New England Patriots",
+                "visitor_score": "3",
+                "home_team": "Los Angeles Rams",
+                "home_score": "24",
+                "result": "L"
+            },
+            {
+                "date": "02/03/2019",
+                "visitor_team": "New England Patriots",
+                "visitor_score": "13",
+                "home_team": "Los Angeles Rams",
+                "home_score": "3",
+                "result": "W"
+            },
+            {
+                "date": "12/04/2016",
+                "visitor_team": "Los Angeles Rams",
+                "visitor_score": "10",
+                "home_team": "New England Patriots",
+                "home_score": "26",
+                "result": "W"
+            },
+            {
+                "date": "10/28/2012",
+                "visitor_team": "New England Patriots",
+                "visitor_score": "45",
+                "home_team": "St. Louis Rams",
+                "home_score": "7",
+                "result": "W"
+            },
+            {
+                "date": "10/26/2008",
+                "visitor_team": "St. Louis Rams",
+                "visitor_score": "16",
+                "home_team": "New England Patriots",
+                "home_score": "23",
+                "result": "W"
+            }
+        ]
+    },
+    {
+        "match_number": 7,
+        "away_team": {
+            "url": "/teams/nfl/baltimore-ravens",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "440.2 (1st)",
+                    "defense": "367.9 (27th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "182.6 (1st)",
+                    "defense": "73.0 (1st)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "257.6 (3rd)",
+                    "defense": "294.9 (32nd)"
+                },
+                "Pts/Game": {
+                    "offense": "31.8 (1st)",
+                    "defense": "25.3 (25th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/pittsburgh-steelers",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "326.3 (18th)",
+                    "defense": "302.7 (8th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "138.3 (8th)",
+                    "defense": "87.1 (4th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "188.0 (26th)",
+                    "defense": "215.6 (19th)"
+                },
+                "Pts/Game": {
+                    "offense": "23.9 (12th)",
+                    "defense": "16.2 (2nd)"
+                }
+            }
+        },
+        "history": "/teams/nfl/pittsburgh-steelers/teamvsteam?opp=3",
+        "games": [
+            {
+                "date": "01/06/2024",
+                "visitor_team": "Pittsburgh Steelers",
+                "visitor_score": "17",
+                "home_team": "Baltimore Ravens",
+                "home_score": "10",
+                "result": "W"
+            },
+            {
+                "date": "10/08/2023",
+                "visitor_team": "Baltimore Ravens",
+                "visitor_score": "10",
+                "home_team": "Pittsburgh Steelers",
+                "home_score": "17",
+                "result": "W"
+            },
+            {
+                "date": "01/01/2023",
+                "visitor_team": "Pittsburgh Steelers",
+                "visitor_score": "16",
+                "home_team": "Baltimore Ravens",
+                "home_score": "13",
+                "result": "W"
+            },
+            {
+                "date": "12/11/2022",
+                "visitor_team": "Baltimore Ravens",
+                "visitor_score": "16",
+                "home_team": "Pittsburgh Steelers",
+                "home_score": "14",
+                "result": "L"
+            },
+            {
+                "date": "01/09/2022",
+                "visitor_team": "Pittsburgh Steelers",
+                "visitor_score": "16",
+                "home_team": "Baltimore Ravens",
+                "home_score": "13",
+                "result": "W/OT"
+            }
+        ]
+    },
+    {
+        "match_number": 8,
+        "away_team": {
+            "url": "/teams/nfl/jacksonville-jaguars",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "302.9 (25th)",
+                    "defense": "390.6 (32nd)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "107.7 (25th)",
+                    "defense": "129.4 (20th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "195.2 (23rd)",
+                    "defense": "261.2 (30th)"
+                },
+                "Pts/Game": {
+                    "offense": "20.2 (21st)",
+                    "defense": "26.4 (27th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/detroit-lions",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "366.9 (7th)",
+                    "defense": "345.0 (20th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "147.3 (7th)",
+                    "defense": "100.8 (6th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "219.6 (14th)",
+                    "defense": "244.2 (28th)"
+                },
+                "Pts/Game": {
+                    "offense": "31.6 (2nd)",
+                    "defense": "19.0 (8th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/detroit-lions/teamvsteam?opp=15",
+        "games": [
+            {
+                "date": "12/04/2022",
+                "visitor_team": "Jacksonville Jaguars",
+                "visitor_score": "14",
+                "home_team": "Detroit Lions",
+                "home_score": "40",
+                "result": "W"
+            },
+            {
+                "date": "10/18/2020",
+                "visitor_team": "Detroit Lions",
+                "visitor_score": "34",
+                "home_team": "Jacksonville Jaguars",
+                "home_score": "16",
+                "result": "W"
+            },
+            {
+                "date": "11/20/2016",
+                "visitor_team": "Jacksonville Jaguars",
+                "visitor_score": "19",
+                "home_team": "Detroit Lions",
+                "home_score": "26",
+                "result": "W"
+            },
+            {
+                "date": "11/04/2012",
+                "visitor_team": "Detroit Lions",
+                "visitor_score": "31",
+                "home_team": "Jacksonville Jaguars",
+                "home_score": "14",
+                "result": "W"
+            },
+            {
+                "date": "11/09/2008",
+                "visitor_team": "Jacksonville Jaguars",
+                "visitor_score": "38",
+                "home_team": "Detroit Lions",
+                "home_score": "14",
+                "result": "L"
+            }
+        ]
+    },
+    {
+        "match_number": 9,
+        "away_team": {
+            "url": "/teams/nfl/indianapolis-colts",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "319.6 (19th)",
+                    "defense": "386.7 (29th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "121.3 (14th)",
+                    "defense": "148.3 (30th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "198.3 (19th)",
+                    "defense": "238.4 (27th)"
+                },
+                "Pts/Game": {
+                    "offense": "20.8 (18th)",
+                    "defense": "22.3 (16th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/new-york-jets",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "298.5 (26th)",
+                    "defense": "302.3 (7th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "86.8 (30th)",
+                    "defense": "134.0 (25th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "211.7 (17th)",
+                    "defense": "168.3 (2nd)"
+                },
+                "Pts/Game": {
+                    "offense": "17.7 (26th)",
+                    "defense": "21.4 (10th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/new-york-jets/teamvsteam?opp=14",
+        "games": [
+            {
+                "date": "11/04/2021",
+                "visitor_team": "New York Jets",
+                "visitor_score": "30",
+                "home_team": "Indianapolis Colts",
+                "home_score": "45",
+                "result": "L"
+            },
+            {
+                "date": "09/27/2020",
+                "visitor_team": "New York Jets",
+                "visitor_score": "7",
+                "home_team": "Indianapolis Colts",
+                "home_score": "36",
+                "result": "L"
+            },
+            {
+                "date": "10/14/2018",
+                "visitor_team": "Indianapolis Colts",
+                "visitor_score": "34",
+                "home_team": "New York Jets",
+                "home_score": "42",
+                "result": "W"
+            },
+            {
+                "date": "12/05/2016",
+                "visitor_team": "Indianapolis Colts",
+                "visitor_score": "41",
+                "home_team": "New York Jets",
+                "home_score": "10",
+                "result": "L"
+            },
+            {
+                "date": "09/21/2015",
+                "visitor_team": "New York Jets",
+                "visitor_score": "20",
+                "home_team": "Indianapolis Colts",
+                "home_score": "7",
+                "result": "W"
+            }
+        ]
+    },
+    {
+        "match_number": 10,
+        "away_team": {
+            "url": "/teams/nfl/seattle-seahawks",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "359.4 (9th)",
+                    "defense": "357.6 (25th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "91.2 (27th)",
+                    "defense": "139.4 (26th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "268.2 (1st)",
+                    "defense": "218.1 (20th)"
+                },
+                "Pts/Game": {
+                    "offense": "23.3 (15th)",
+                    "defense": "24.6 (23rd)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/san-francisco-49ers",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "412.4 (2nd)",
+                    "defense": "303.7 (9th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "149.7 (5th)",
+                    "defense": "106.2 (8th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "262.8 (2nd)",
+                    "defense": "197.4 (12th)"
+                },
+                "Pts/Game": {
+                    "offense": "25.9 (7th)",
+                    "defense": "22.4 (17th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/san-francisco-49ers/teamvsteam?opp=28",
+        "games": [
+            {
+                "date": "10/10/2024",
+                "visitor_team": "San Francisco 49ers",
+                "visitor_score": "36",
+                "home_team": "Seattle Seahawks",
+                "home_score": "24",
+                "result": "W"
+            },
+            {
+                "date": "12/10/2023",
+                "visitor_team": "Seattle Seahawks",
+                "visitor_score": "16",
+                "home_team": "San Francisco 49ers",
+                "home_score": "28",
+                "result": "W"
+            },
+            {
+                "date": "11/23/2023",
+                "visitor_team": "San Francisco 49ers",
+                "visitor_score": "31",
+                "home_team": "Seattle Seahawks",
+                "home_score": "13",
+                "result": "W"
+            },
+            {
+                "date": "01/14/2023",
+                "visitor_team": "Seattle Seahawks",
+                "visitor_score": "23",
+                "home_team": "San Francisco 49ers",
+                "home_score": "41",
+                "result": "W"
+            },
+            {
+                "date": "12/15/2022",
+                "visitor_team": "San Francisco 49ers",
+                "visitor_score": "21",
+                "home_team": "Seattle Seahawks",
+                "home_score": "13",
+                "result": "W"
+            }
+        ]
+    },
+    {
+        "match_number": 11,
+        "away_team": {
+            "url": "/teams/nfl/atlanta-falcons",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "375.1 (5th)",
+                    "defense": "352.8 (24th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "124.7 (12th)",
+                    "defense": "129.4 (20th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "250.4 (5th)",
+                    "defense": "223.4 (24th)"
+                },
+                "Pts/Game": {
+                    "offense": "23.8 (13th)",
+                    "defense": "23.6 (20th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/denver-broncos",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "303.7 (24th)",
+                    "defense": "295.7 (5th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "117.1 (20th)",
+                    "defense": "103.5 (7th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "186.6 (27th)",
+                    "defense": "192.2 (10th)"
+                },
+                "Pts/Game": {
+                    "offense": "19.7 (22nd)",
+                    "defense": "17.7 (4th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/denver-broncos/teamvsteam?opp=2",
+        "games": [
+            {
+                "date": "11/08/2020",
+                "visitor_team": "Denver Broncos",
+                "visitor_score": "27",
+                "home_team": "Atlanta Falcons",
+                "home_score": "34",
+                "result": "L"
+            },
+            {
+                "date": "10/09/2016",
+                "visitor_team": "Atlanta Falcons",
+                "visitor_score": "23",
+                "home_team": "Denver Broncos",
+                "home_score": "16",
+                "result": "L"
+            },
+            {
+                "date": "09/17/2012",
+                "visitor_team": "Denver Broncos",
+                "visitor_score": "21",
+                "home_team": "Atlanta Falcons",
+                "home_score": "27",
+                "result": "L"
+            },
+            {
+                "date": "11/16/2008",
+                "visitor_team": "Denver Broncos",
+                "visitor_score": "24",
+                "home_team": "Atlanta Falcons",
+                "home_score": "20",
+                "result": "W"
+            },
+            {
+                "date": "10/31/2004",
+                "visitor_team": "Atlanta Falcons",
+                "visitor_score": "41",
+                "home_team": "Denver Broncos",
+                "home_score": "28",
+                "result": "L"
+            }
+        ]
+    },
+    {
+        "match_number": 12,
+        "away_team": {
+            "url": "/teams/nfl/kansas-city-chiefs",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "346.7 (10th)",
+                    "defense": "289.9 (4th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "115.1 (21st)",
+                    "defense": "83.2 (3rd)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "231.6 (9th)",
+                    "defense": "206.7 (14th)"
+                },
+                "Pts/Game": {
+                    "offense": "24.3 (11th)",
+                    "defense": "17.9 (5th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/buffalo-bills",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "343.2 (14th)",
+                    "defense": "336.1 (18th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "120.7 (15th)",
+                    "defense": "123.2 (15th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "222.5 (13th)",
+                    "defense": "212.9 (18th)"
+                },
+                "Pts/Game": {
+                    "offense": "29.0 (3rd)",
+                    "defense": "19.3 (9th)"
+                }
+            }
+        },
+        "history": "/teams/nfl/buffalo-bills/teamvsteam?opp=16",
+        "games": [
+            {
+                "date": "01/21/2024",
+                "visitor_team": "Kansas City Chiefs",
+                "visitor_score": "27",
+                "home_team": "Buffalo Bills",
+                "home_score": "24",
+                "result": "L"
+            },
+            {
+                "date": "12/10/2023",
+                "visitor_team": "Buffalo Bills",
+                "visitor_score": "20",
+                "home_team": "Kansas City Chiefs",
+                "home_score": "17",
+                "result": "W"
+            },
+            {
+                "date": "10/16/2022",
+                "visitor_team": "Buffalo Bills",
+                "visitor_score": "24",
+                "home_team": "Kansas City Chiefs",
+                "home_score": "20",
+                "result": "W"
+            },
+            {
+                "date": "01/23/2022",
+                "visitor_team": "Buffalo Bills",
+                "visitor_score": "36",
+                "home_team": "Kansas City Chiefs",
+                "home_score": "42",
+                "result": "L/OT"
+            },
+            {
+                "date": "10/10/2021",
+                "visitor_team": "Buffalo Bills",
+                "visitor_score": "38",
+                "home_team": "Kansas City Chiefs",
+                "home_score": "20",
+                "result": "W"
+            }
+        ]
+    },
+    {
+        "match_number": 13,
+        "away_team": {
+            "url": "/teams/nfl/cincinnati-bengals",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "344.5 (12th)",
+                    "defense": "347.5 (23rd)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "89.7 (29th)",
+                    "defense": "127.3 (17th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "254.8 (4th)",
+                    "defense": "220.2 (23rd)"
+                },
+                "Pts/Game": {
+                    "offense": "27.0 (6th)",
+                    "defense": "26.2 (26th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/los-angeles-chargers",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "314.3 (22nd)",
+                    "defense": "302.1 (6th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "117.9 (19th)",
+                    "defense": "110.6 (9th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "196.4 (22nd)",
+                    "defense": "191.6 (9th)"
+                },
+                "Pts/Game": {
+                    "offense": "20.7 (19th)",
+                    "defense": "13.1 (1st)"
+                }
+            }
+        },
+        "history": "/teams/nfl/los-angeles-chargers/teamvsteam?opp=7",
+        "games": [
+            {
+                "date": "12/05/2021",
+                "visitor_team": "Los Angeles Chargers",
+                "visitor_score": "41",
+                "home_team": "Cincinnati Bengals",
+                "home_score": "22",
+                "result": "W"
+            },
+            {
+                "date": "09/13/2020",
+                "visitor_team": "Los Angeles Chargers",
+                "visitor_score": "16",
+                "home_team": "Cincinnati Bengals",
+                "home_score": "13",
+                "result": "W"
+            },
+            {
+                "date": "12/09/2018",
+                "visitor_team": "Cincinnati Bengals",
+                "visitor_score": "21",
+                "home_team": "Los Angeles Chargers",
+                "home_score": "26",
+                "result": "W"
+            },
+            {
+                "date": "09/20/2015",
+                "visitor_team": "San Diego Chargers",
+                "visitor_score": "19",
+                "home_team": "Cincinnati Bengals",
+                "home_score": "24",
+                "result": "L"
+            },
+            {
+                "date": "01/05/2014",
+                "visitor_team": "San Diego Chargers",
+                "visitor_score": "27",
+                "home_team": "Cincinnati Bengals",
+                "home_score": "10",
+                "result": "W"
+            }
+        ]
+    },
+    {
+        "match_number": 14,
+        "away_team": {
+            "url": "/teams/nfl/houston-texans",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "338.1 (15th)",
+                    "defense": "288.0 (3rd)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "119.4 (18th)",
+                    "defense": "113.3 (11th)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "218.7 (15th)",
+                    "defense": "174.7 (4th)"
+                },
+                "Pts/Game": {
+                    "offense": "22.4 (17th)",
+                    "defense": "22.6 (19th)"
+                }
+            }
+        },
+        "home_team": {
+            "url": "/teams/nfl/dallas-cowboys",
+            "rankings": {
+                "Yds/Game": {
+                    "offense": "315.0 (21st)",
+                    "defense": "362.9 (26th)"
+                },
+                "Rush Yds/Game": {
+                    "offense": "83.7 (31st)",
+                    "defense": "152.1 (31st)"
+                },
+                "Pass Yds/Game": {
+                    "offense": "231.3 (10th)",
+                    "defense": "210.8 (17th)"
+                },
+                "Pts/Game": {
+                    "offense": "19.7 (23rd)",
+                    "defense": "28.8 (31st)"
+                }
+            }
+        },
+        "history": "/teams/nfl/dallas-cowboys/teamvsteam?opp=13",
+        "games": [
+            {
+                "date": "12/11/2022",
+                "visitor_team": "Houston Texans",
+                "visitor_score": "23",
+                "home_team": "Dallas Cowboys",
+                "home_score": "27",
+                "result": "W"
+            },
+            {
+                "date": "10/07/2018",
+                "visitor_team": "Dallas Cowboys",
+                "visitor_score": "16",
+                "home_team": "Houston Texans",
+                "home_score": "19",
+                "result": "L/OT"
+            },
+            {
+                "date": "10/05/2014",
+                "visitor_team": "Houston Texans",
+                "visitor_score": "17",
+                "home_team": "Dallas Cowboys",
+                "home_score": "20",
+                "result": "W/OT"
+            },
+            {
+                "date": "09/26/2010",
+                "visitor_team": "Dallas Cowboys",
+                "visitor_score": "27",
+                "home_team": "Houston Texans",
+                "home_score": "13",
+                "result": "W"
+            },
+            {
+                "date": "10/15/2006",
+                "visitor_team": "Houston Texans",
+                "visitor_score": "6",
+                "home_team": "Dallas Cowboys",
+                "home_score": "34",
+                "result": "W"
+            }
+        ]
+    }
+]
