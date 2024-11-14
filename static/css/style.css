@@ -20,7 +20,33 @@
     display: none;
     margin-top: 20px;
 }
-/* Alineación de las celdas de la tabla a la izquierda */
 .table th, .table td {
     text-align: left;
+}
+.match-nav-button {
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.match-nav-button:hover {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+.match-number {
+    font-size: 20px;
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 40px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    font-weight: bold;
 }
