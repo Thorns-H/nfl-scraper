@@ -21,20 +21,69 @@
             color: red;
             font-weight: bold;
         }
+        .fixed-table {
+            table-layout: fixed;
+            width: 100%;
+        }
+        .statistics-section {
+            display: none;
+            margin-top: 20px;
+        }
+        .table th, .table td {
+            text-align: left;
+        }
+        /* Botones de cambio de partido */
+        .match-nav-button {
+            font-size: 18px;
+            width: 100px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .match-nav-button:hover {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+        .match-number {
+            font-size: 20px;
+            margin: 0 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 40px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body class="bg-light">
     <div class="container mt-5">
+        <div class="d-flex justify-content-center mb-4">
+            <button class="match-nav-button btn btn-outline-secondary mx-2" onclick="showPreviousMatch()">
+                &lt;
+            </button>
+            <div class="match-number" id="matchNumber"></div>
+            <button class="match-nav-button btn btn-outline-secondary mx-2" onclick="showNextMatch()">
+                &gt;
+            </button>
+        </div>
         <div id="match-container" class="row justify-content-center"></div>
         <div class="d-flex justify-content-center mt-4">
-            <button class="btn btn-primary mx-2" onclick="showPreviousMatch()">Previous</button>
-            <button class="btn btn-primary mx-2" onclick="showNextMatch()">Next</button>
+            <button class="btn btn-secondary" id="toggleStatsButton" onclick="toggleStats()">Show Stats</button>
         </div>
+        <div class="statistics-section" id="statisticsSection"></div>
     </div>
 
     <script>
         const matches = {{ matches | tojson }};
         let currentMatch = 0;
+        let statsVisible = false;
 
         function formatTeamName(url) {
             return url.split('/').pop().replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
@@ -48,11 +97,14 @@
         function displayMatch() {
             const match = matches[currentMatch];
             const container = document.getElementById("match-container");
+            const matchNumber = document.getElementById("matchNumber");
 
             const awayTeamName = formatTeamName(match.away_team.url);
             const homeTeamName = formatTeamName(match.home_team.url);
             const awayLogo = getLogoFileName(awayTeamName);
             const homeLogo = getLogoFileName(homeTeamName);
+
+            matchNumber.innerText = `${match.match_number}`;
 
             container.innerHTML = `
                 <div class="col-md-10">
@@ -114,17 +166,70 @@
             `).join("");
         }
 
-        function showNextMatch() {
-            currentMatch = (currentMatch + 1) % matches.length;
-            displayMatch();
+        function generateStatsTable(stats, statType) {
+            if (!stats || stats.length === 0) return "<p>No data available</p>";
+
+            // Definir el orden de las columnas para cada tipo de estadística
+            const statHeaders = {
+                passing: ["Player", "Att", "Cmp", "Pct", "Yds", "YPA", "TD", "TD%", "Int", "Int%", "Lg", "Sack", "Loss", "Rate"],
+                rushing: ["Player", "Gms", "Att", "Yds", "Avg", "YPG", "Lg", "TD", "FD"],
+                receiving: ["Player", "Gms", "Rec", "Yds", "Avg", "YPG", "Lg", "TD", "FD", "Tar", "YAC"]
+            };
+
+            // Obtener las cabeceras correctas según el tipo de estadística
+            const headers = statHeaders[statType];
+
+            let html = `
+                <table class="table table-sm table-striped text-left">
+                    <thead class="thead-light">
+                        <tr>${headers.map(header => `<th>${header}</th>`).join("")}</tr>
+                    </thead>
+                    <tbody>
+                        ${stats.map(player => `
+                            <tr>${headers.map(header => `<td>${player[header]}</td>`).join("")}</tr>
+                        `).join("")}
+                    </tbody>
+                </table>
+            `;
+            return html;
+        }
+
+        function toggleStats() {
+            statsVisible = !statsVisible;
+            document.getElementById("statisticsSection").style.display = statsVisible ? "block" : "none";
+            document.getElementById("toggleStatsButton").innerText = statsVisible ? "Hide Stats" : "Show Stats";
+
+            if (statsVisible) {
+                const match = matches[currentMatch];
+                document.getElementById("statisticsSection").innerHTML = `
+                    <h5>Passing (Away Team)</h5>
+                    ${generateStatsTable(match.away_team.statistics.passing, "passing")}
+                    <h5>Passing (Home Team)</h5>
+                    ${generateStatsTable(match.home_team.statistics.passing, "passing")}
+                    <h5>Rushing (Away Team)</h5>
+                    ${generateStatsTable(match.away_team.statistics.rushing, "rushing")}
+                    <h5>Rushing (Home Team)</h5>
+                    ${generateStatsTable(match.home_team.statistics.rushing, "rushing")}
+                    <h5>Receiving (Away Team)</h5>
+                    ${generateStatsTable(match.away_team.statistics.receiving, "receiving")}
+                    <h5>Receiving (Home Team)</h5>
+                    ${generateStatsTable(match.home_team.statistics.receiving, "receiving")}
+                `;
+            }
         }
 
         function showPreviousMatch() {
-            currentMatch = (currentMatch - 1 + matches.length) % matches.length;
+            currentMatch = (currentMatch > 0) ? currentMatch - 1 : matches.length - 1;
             displayMatch();
         }
 
-        window.onload = displayMatch;
+        function showNextMatch() {
+            currentMatch = (currentMatch < matches.length - 1) ? currentMatch + 1 : 0;
+            displayMatch();
+        }
+
+        // Mostrar el primer partido
+        displayMatch();
     </script>
 </body>
 </html>
